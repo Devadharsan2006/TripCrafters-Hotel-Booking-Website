@@ -17,7 +17,7 @@ export default function IndexPage()
                 <Link to={'/place/'+place._id}>
                     <div className="bg-gray-500 rounded-2xl mb-3">
                     {place.photos?.[0] && (
-                        <img className='rounded-2xl aspect-square objcet-cover'src={'http://localhost:4000/uploads/'+place.photos?.[0]}></img>
+                        <img className='rounded-2xl aspect-square objcet-cover'src={'https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/'+place.photos?.[0]}></img>
                     )}
                     </div>
                     <h2 className="font-bold">{place.address}</h2>
