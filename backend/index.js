@@ -21,8 +21,8 @@ require('dotenv').config()
 app.use(cors({
     credentials:true,
     origin: [
-    'http://localhost:5173', // for local development
-    'https://tripcrafters-hotel-booking-website-02.onrender.com' // ✅ deployed frontend
+    'http://localhost:5173', 
+    'https://tripcrafters-hotel-booking-website-03.onrender.com' 
   ],
 }
 ));
