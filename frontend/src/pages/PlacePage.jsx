@@ -31,7 +31,7 @@ Close Photos</button>
                     </div>
                 {place?.photos?.length>0 && place.photos.map(photo=>(
                     <div>
-                        <img className='min-w-full' src={'https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/'+photo}></img>
+                        <img className='min-w-full' src={'https://tripcrafters-hotel-booking-website-3.onrender.com/uploads/'+photo}></img>
                     </div>
                 ))}
                 </div>
@@ -46,17 +46,17 @@ Close Photos</button>
             <div className="grid grid-cols-3 gap-4">
             <div>
                 {place.photos?.[0] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+place.photos[0]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-3.onrender.com/uploads/"+place.photos[0]}></img>)}
             </div>
             <div className="grid grid-cols-2 grid-rows-2 gap-4">
             {place.photos?.[1] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+place.photos[1]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-3.onrender.com/uploads/"+place.photos[1]}></img>)}
             {place.photos?.[2] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+place.photos[2]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-3.onrender.com/uploads/"+place.photos[2]}></img>)}
                 {place.photos?.[3] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+place.photos[3]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-3.onrender.com/uploads/"+place.photos[3]}></img>)}
                 {place.photos?.[4] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+place.photos[4]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-3.onrender.com/uploads/"+place.photos[4]}></img>)}
             </div>
             <button onClick={()=>setshowall(true)}className="bg-gray-300 rounded-2xl py-3 px-3 absolute top-2 right-2 shadow shadow-md">
                 <div className="flex gap-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
