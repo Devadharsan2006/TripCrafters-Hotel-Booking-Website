@@ -13,7 +13,7 @@ import PlacesFormPage from './pages/PlacesFormPage.jsx'
 import PlacePage from './pages/PlacePage.jsx'
 import BookingsPage from './pages/BookingsPage.jsx'
 import BookingPage from './pages/BookingPage.jsx'
-axios.defaults.baseURL="http://localhost:4000"
+axios.defaults.baseURL="https://tripcrafters-hotel-booking-website-2.onrender.com/"
 axios.defaults.withCredentials=true;
 function App() {
 
