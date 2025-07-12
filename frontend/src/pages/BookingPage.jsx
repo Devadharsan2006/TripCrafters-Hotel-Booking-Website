@@ -38,7 +38,7 @@ export default function BookingPage() {
                         </div>
                     {booking.place?.photos?.length>0 && booking.place.photos.map(photo=>(
                         <div>
-                            <img className='min-w-full' src={'http://localhost:4000/uploads/'+photo}></img>
+                            <img className='min-w-full' src={'https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/'+photo}></img>
                         </div>
                     ))}
                     </div>
@@ -63,17 +63,17 @@ export default function BookingPage() {
             <div className="grid grid-cols-3 gap-4">
             <div>
                 {booking.place.photos?.[0] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"http://localhost:4000/uploads/"+booking.place.photos[0]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+booking.place.photos[0]}></img>)}
             </div>
             <div className="grid grid-cols-2 grid-rows-2 gap-4">
             {booking.place.photos?.[1] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"http://localhost:4000/uploads/"+booking.place.photos[1]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+booking.place.photos[1]}></img>)}
             {booking.place.photos?.[2] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"http://localhost:4000/uploads/"+booking.place.photos[2]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+booking.place.photos[2]}></img>)}
                 {booking.place.photos?.[3] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"http://localhost:4000/uploads/"+booking.place.photos[3]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+booking.place.photos[3]}></img>)}
                 {booking.place.photos?.[4] && (
-                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"http://localhost:4000/uploads/"+booking.place.photos[4]}></img>)}
+                <img onClick={()=>setshowall(true)} className="object-cover aspect-square rounded-2xl" src={"https://tripcrafters-hotel-booking-website-2.onrender.com/uploads/"+booking.place.photos[4]}></img>)}
             </div>
             <button onClick={()=>setshowall(true)}className="bg-gray-300 rounded-2xl py-3 px-3 absolute top-2 right-2 shadow shadow-md">
                 <div className="flex gap-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
