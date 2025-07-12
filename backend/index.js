@@ -20,7 +20,10 @@ app.use(express.json())
 require('dotenv').config()
 app.use(cors({
     credentials:true,
-    origin:'http://localhost:5173',
+    origin: [
+    'http://localhost:5173', // for local development
+    'https://tripcrafters-hotel-booking-website-02.onrender.com' // ✅ deployed frontend
+  ],
 }
 ));
 mongoose.connect(process.env.MONGO_URL);
